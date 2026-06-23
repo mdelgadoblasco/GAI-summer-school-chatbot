@@ -186,8 +186,16 @@ class StudyBuddyBot:
         )
 
     def _history_messages(self) -> list[dict[str, str]]:
-        return [turn for turn in self.state.turns if turn["role"] in {"user", "assistant"}]
+        messages = []
 
+        for turn in self.state.turns:
+            role = turn.get("role")
+            content = turn.get("content") or turn.get("text") or ""
+
+            if role in {"user", "assistant"} and content:
+                messages.append({"role": role, "content": content})
+
+        return messages
     def _refusal(self, topic: str) -> str:
         message = self.refusal.get("message", "I can only help with study-related requests.")
         redirect = self.refusal.get("redirect", "Please give me a study topic or assignment.")
@@ -258,7 +266,7 @@ class StudyBuddyBot:
         return self.state.profile.get("subject", "") or self.state.current_topic
 
     def _append_turn(self, role: str, text: str) -> None:
-        self.state.turns.append({"role": role, "text": text})
+        self.state.turns.append({"role": role, "content": text})
 
     def _trim_history(self) -> None:
         if len(self.state.turns) > MAX_TURNS:
