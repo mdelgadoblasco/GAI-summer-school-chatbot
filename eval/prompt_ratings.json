@@ -82,7 +82,7 @@ Want me to give the answers now, walk through step-by-step solutions, or set a s
    Back: Light intensity, CO2 concentration, temperature, and availability of water — each can limit the overall rate if outside optimal ranges.
 
 Would you like these as a printable sheet, or a short quiz using these cards?",
-    "manual_rating": "",
+    "manual_rating": "PASSED",
     "notes": ""
   },
   {
@@ -180,7 +180,7 @@ Exam day checklist & quick tips
 - After exam: brief self-review of what went well for next time.
 
 Would you like this plan adjusted for your exam format (multiple-choice vs long-answer) or the number of hours you can study per day? (Pick one: tell me the format or hours available.)",
-    "manual_rating": "",
+    "manual_rating": "PASSED",
     "notes": ""
   },
   {
@@ -189,7 +189,7 @@ Would you like this plan adjusted for your exam format (multiple-choice vs long-
     "prompt": "Quiz me on Python lists with 5 beginner-level questions.",
     "expected_behavior": "Provides five beginner-level quiz questions about Python lists.",
     "bot_reply": "",
-    "manual_rating": "",
+    "manual_rating": "PASSED",
     "notes": ""
   },
   {
