@@ -56,7 +56,7 @@ Short practice set (try these)
 6) d/dx (cos(3x + 1))
 
 Want me to give the answers now, walk through step-by-step solutions, or set a short quiz with instant feedback?",
-    "manual_rating": "",
+    "manual_rating": "PASS",
     "notes": ""
   },
   {
@@ -180,7 +180,7 @@ Exam day checklist & quick tips
 - After exam: brief self-review of what went well for next time.
 
 Would you like this plan adjusted for your exam format (multiple-choice vs long-answer) or the number of hours you can study per day? (Pick one: tell me the format or hours available.)",
-    "manual_rating": "PASSED",
+    "manual_rating": "PASS",
     "notes": ""
   },
   {
@@ -189,7 +189,7 @@ Would you like this plan adjusted for your exam format (multiple-choice vs long-
     "prompt": "Quiz me on Python lists with 5 beginner-level questions.",
     "expected_behavior": "Provides five beginner-level quiz questions about Python lists.",
     "bot_reply": "",
-    "manual_rating": "PASSED",
+    "manual_rating": "PASS",
     "notes": ""
   },
   {
