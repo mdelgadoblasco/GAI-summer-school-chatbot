@@ -90,7 +90,96 @@ Would you like these as a printable sheet, or a short quiz using these cards?",
     "category": "on_topic",
     "prompt": "I have a biology exam in 4 days on cells, DNA, and evolution. Can you make me a study plan?",
     "expected_behavior": "Creates a realistic 4-day study plan covering cells, DNA, and evolution.",
-    "bot_reply": "",
+    "bot_reply": "Study Buddy: Nice — current topic: cells, DNA, and evolution. Below is a focused 4-day study plan you can use before your biology exam. It’s practical, includes what to study each day, active study methods, practice tasks, and exam-day tips. If you want it adjusted, I have one quick question at the end.
+
+General study tips to follow each day
+- Use active recall: try to write out answers from memory before checking notes.
+- Use spaced repetition / flashcards for key terms.
+- Draw diagrams (label from memory) — visuals stick for cells and processes.
+- Practice short-answer or multiple-choice questions under time pressure.
+- Use 25–50 minute focused sessions (Pomodoro), 5–10 minute breaks.
+- Keep a “mistake log”: note what you got wrong and review it each day.
+
+Day 1 — Cells (focus: structure & function)
+Morning (1–1.5 h)
+- Read/skim your lecture notes on cell theory, prokaryotes vs eukaryotes, organelles (nucleus, mitochondria, chloroplasts, ER, Golgi), membrane structure.
+- Make one-page summary with key functions.
+
+Midday (1–1.5 h)
+- Draw and label: animal cell, plant cell, mitochondrion, chloroplast, cell membrane (show phospholipid bilayer + proteins).
+- Active recall: list organelle functions without notes, then check.
+
+Afternoon (1 h)
+- Study transport: diffusion, osmosis, facilitated diffusion, active transport, endo/exocytosis.
+- Practice: short problems — predict what happens to plant cells in hypotonic/isotonic/hypertonic solutions.
+
+Evening (30–45 min)
+- Quick quiz (10 Qs): identify organelles, match functions, explain membrane permeability.
+
+Day 2 — DNA & gene expression (structure, replication, protein synthesis)
+Morning (1–1.5 h)
+- Read notes: DNA structure, base pairing, antiparallel strands, replication basics (DNA polymerase, leading/lagging strand, Okazaki fragments).
+- Make flashcards for enzymes and their roles (helicase, primase, ligase, polymerase).
+
+Midday (1–1.5 h)
+- Work through the central dogma: transcription (RNA polymerase, mRNA processing in eukaryotes), translation (ribosome, tRNA, codon/anticodon).
+- Translate a short mRNA sequence to amino acids (practice codon table).
+
+Afternoon (1 h)
+- Mutations: types (point, frameshift), effects (silent, missense, nonsense), causes (radiation, chemicals).
+- Lab/techniques overview: PCR, gel electrophoresis, DNA sequencing (basic steps and purposes).
+
+Evening (30–45 min)
+- Practice questions: predict protein sequence after a mutation, label steps in replication/transcription/translation.
+
+Day 3 — Evolution (mechanisms, evidence, population genetics)
+Morning (1–1.5 h)
+- Core concepts: natural selection, adaptation, fitness, sexual selection, genetic drift, gene flow, bottleneck/founder effects.
+- Evidence: fossil record, comparative anatomy, molecular homology, biogeography.
+
+Midday (1–1.5 h)
+- Speciation: allopatric vs sympatric, reproductive isolation.
+- Phylogenies: read trees, identify common ancestors, derived vs ancestral traits.
+
+Afternoon (1 h)
+- Hardy-Weinberg: review assumptions and do 3 practice problems (calculate p and q, genotype frequencies).
+- Practice interpreting selection scenarios (which trait increases/decreases frequency?).
+
+Evening (30–45 min)
+- Mixed quiz on evolution concepts and short explanations (2–3 min each).
+
+Day 4 — Consolidation & exam practice
+Morning (1–2 h)
+- Quick pass over Day 1–3 one-page summaries and flashcards.
+- Redo your mistake log items until you can answer them confidently.
+
+Midday (1–2 h)
+- Take a timed mock exam (combine multiple-choice and short answers: 40–60 minutes). Use past papers if available.
+- Mark it, review incorrect answers, and summarize core fixes.
+
+Afternoon (45–60 min)
+- Target weak spots only (if DNA replication weak → re-draw steps; evolution weak → do more HW problems).
+
+Evening (30–45 min)
+- Light review: 1-page cheat sheet of must-know facts, labeled diagrams you can redraw in 2–3 min.
+- Pack exam essentials (pens, calculator if needed). Sleep early.
+
+Short practice question set to try (use across days)
+1) Draw and label a mitochondrion and list two key functions.
+2) Explain why DNA replication is semiconservative.
+3) Write the mRNA and amino-acid sequence for DNA template 3'–TAC GGA CTA–5' (show steps).
+4) Describe three types of evidence for evolution.
+5) If p = 0.7 in a Hardy-Weinberg population, what are genotype frequencies? (p^2, 2pq, q^2)
+6) Compare mitosis vs meiosis: one key similarity and two differences.
+
+Exam day checklist & quick tips
+- Eat a good breakfast, stay hydrated.
+- Arrive early, manage time (first pass easy questions).
+- For essays/long answers: plan 1–2 minutes before writing; include definitions and examples.
+- If stuck: move on and return; don’t lose time.
+- After exam: brief self-review of what went well for next time.
+
+Would you like this plan adjusted for your exam format (multiple-choice vs long-answer) or the number of hours you can study per day? (Pick one: tell me the format or hours available.)",
     "manual_rating": "",
     "notes": ""
   },
